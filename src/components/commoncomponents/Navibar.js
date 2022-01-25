@@ -10,18 +10,7 @@ import {
 
 const Navibar = () => {
 
-  // const [expand, updateExpanded] = useState(false);
-  const [updateNavbar] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
 
   return (
     <div className="Navibar">
