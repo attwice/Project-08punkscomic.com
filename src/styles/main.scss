@@ -1,0 +1,374 @@
+.Navibar {
+  background: #0c1121;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  .Navibar--logo {
+    width: 40px;
+  }
+  .Navi--txt {
+    font-weight: 800;
+
+    &:hover {
+      color: green !important;
+    }
+  }
+  .navbar-toggler-icon {
+    background: url("../images/closedmenu.webp") !important;
+    width: 1 em;
+    height: 1 em;
+    background-size: 100% 100% !important;
+  }
+  .navbar-toggler {
+    border: none;
+    box-shadow: none;
+  }
+  .navbar-collapse {
+    background: url("../images/MobileMenuBckg.webp");
+  }
+  @media (min-width: 1400px) {
+    .navbar-collapse {
+      background: #0c1121;
+      height: 100%;
+    }
+  }
+
+  .pinkbtn {
+    padding: 8px 16px;
+    background: #d93978;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    border-radius: 4px;
+
+    @media (min-width: 1400px) {
+      .pinkbtn {
+        background: #fff !important;
+        color: #fff;
+      }
+    }
+
+    &:hover {
+      background: white !important;
+      color: green !important;
+    }
+  }
+
+  .icon {
+    width: 33px;
+    margin: 4px;
+  }
+}
+
+.project {
+  padding-top: 156px;
+
+  .project--img {
+    max-width: 300px;
+  }
+
+  @media (min-width: 700px) {
+    .project--img {
+      max-width: 555px;
+    }
+  }
+
+  .project--pximg {
+    max-width: 125px;
+  }
+
+  .project--txt {
+    max-width: 625px;
+  }
+
+  .project--connect {
+    max-width: 617px;
+    background: linear-gradient(-45deg, #14c918, #d93978, #81f8cf, #dcc659);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 8px;
+  }
+
+  .project--connect--btn {
+    border-radius: 8px;
+    border: 1px solid black;
+    background: none;
+    padding: 12.6px 50px;
+
+    &:hover {
+      background: linear-gradient(-45deg, #14c918, #d93978, #81f8cf, #dcc659);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+  }
+
+  .project--release {
+    background: #0c1121;
+    padding: 1.5rem;
+    max-width: 1100px;
+    border-radius: 4px;
+  }
+}
+
+.tokenpan {
+  max-width: 1100px;
+
+  .tokenpan--status {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
+
+.purchase {
+  max-width: 1100px;
+  margin-top: 80px;
+  margin-bottom: 96px;
+
+  .purchase--img {
+    max-width: 355px;
+  }
+  @media (min-width: 1200px) {
+    .purchase--img {
+      max-width: 100%;
+    }
+  }
+  .purchase--commicimg {
+    max-width: 385px;
+  }
+
+  .purchase--pan {
+    padding: 60px 0px 0px;
+    background: none;
+    border: 1px solid #d93978;
+    border-radius: 8px;
+  }
+
+  .purchase--btn {
+    background: #d93978;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: bolder;
+
+    &:hover {
+      background: #fff;
+      color: #d93978;
+    }
+  }
+}
+
+.video {
+  max-width: 1100px;
+  .video--mp4 {
+    max-width: 168px;
+    margin-bottom: 30px;
+  }
+}
+
+.collection {
+  .collection--text {
+    max-width: 750px;
+  }
+
+  .collection--img {
+    width: 100%;
+  }
+
+  .collection--link {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      color: #d93978;
+    }
+  }
+}
+
+.footer {
+  .footer--img {
+    max-width: 200px;
+  }
+
+  @media (min-width: 700px) {
+    .footer--img {
+      max-width: 275px;
+    }
+  }
+
+  .footer--icon {
+    width: 50px;
+    margin: 5px;
+  }
+
+  .footer--links {
+    max-width: 1100px;
+    display: grid;
+  }
+
+  @media (min-width: 1100px) {
+    .footer--links {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .footer--link {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: #d93978;
+    }
+  }
+
+  .footer--pximg {
+    max-width: 123px;
+  }
+}
+
+.stake {
+  .stake--logoimg {
+    max-width: 200px;
+    position: relative;
+    top: -100px;
+  }
+
+  .stake--div {
+    border-top: 1px solid #d93978;
+  }
+
+  .warnimg {
+    max-width: 45px;
+  }
+}
+
+.daoline {
+  width: 15%;
+  height: 1px;
+}
+
+.iimcell {
+  height: 220px;
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.white-line {
+  max-width: 300px;
+  border: 1px solid white;
+}
+
+.fraction {
+  max-width: 400px;
+  .fractionimg {
+    width: 250px;
+  }
+}
+
+.fraction--arrow {
+  max-width: 56px;
+}
+
+.owner {
+  border-top: 1px solid #14c918;
+  border-bottom: 1px solid #14c918;
+}
+
+.borderpink {
+  border-top: 1px solid #d93978;
+}
+
+.dao-txt {
+  line-height: 2rem;
+  text-align: left;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 60px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../images/slideleft.png") !important;
+  width: 60px;
+  height: 60px;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../images/slideright.png");
+  width: 60px;
+  height: 60px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  z-index: -1;
+}
+
+.explorbtn {
+  background: none;
+  color: #14c918;
+  border: 1px solid #14c918;
+
+  &:hover {
+    color: #111930;
+    background-color: #14c918;
+  }
+}
+
+.accordion-item {
+  background: none;
+  border: none !important;
+  margin-bottom: 10px;
+}
+
+.accordion-item:first-of-type .accordion-button .accordion-item:last-of-type .accordion-button.collapsed {
+  border-top-left-radius: calc(0rem - 1px) !important;
+  border-top-right-radius: calc(0rem - 1px) !important;
+}
+
+.accordion-button {
+  font-size: 1.2rem;
+  color: #d93978 !important;
+  text-align: center;
+  background-color: #ffffff00 !important;
+  box-shadow: none !important;
+  border: 1px solid #d93978;
+}
+
+.accordion-button:focus {
+  border-color: #d93978;
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 1rem 1.25rem;
+  border: 1px solid #d93978;
+  border-top: none;
+  color: #d93978;
+  text-align: left;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/arrow-down.png");
+  transform: rotate(0deg);
+}
+
+.accordion-button::after {
+  background-image: url("../images/arrow-down.png");
+  transform: rotate(0deg);
+}
+
+.about--pvimg {
+  max-width: 160px;
+}
+
+.grrenline {
+  border-top: 1px solid #14c918;
+}
