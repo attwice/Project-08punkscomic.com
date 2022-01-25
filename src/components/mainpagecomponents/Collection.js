@@ -26,37 +26,37 @@ const Community = () => {
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-bba.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">BBA</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-biz.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">BIZ</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-hanzo.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">HANZO</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-kiki.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">KIKI</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-kbb.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">KING BLACKBORED</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-lonestar.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">LONE-STAR</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
           <Col lg={3} md={4} sm={6} className="text-center pt-4">
             <img className="collection--img" src="../images/P2FC-tropo.jpeg" alt="#action1"></img>
             <p className="text-white font-26 font-issue mt-4">TROPO</p>
-            <a className="collection--link font-16" href="#">APE #6743</a>
+            <a className="collection--link font-16" href="/#">APE #6743</a>
           </Col>
         </Row>
       </Container>

@@ -10,8 +10,8 @@ import {
 
 const Navibar = () => {
 
-  const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
+  // const [expand, updateExpanded] = useState(false);
+  const [updateNavbar] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -30,7 +30,7 @@ const Navibar = () => {
           <Navbar.Brand 
           as={Link}
           to="/"
-          onClick={() => updateExpanded(false)}
+          // onClick={() => updateExpanded(false)}
           href="#home"><img className="Navibar--logo" src="images/nav_logo.webp" alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav nav-fill">
@@ -38,28 +38,28 @@ const Navibar = () => {
               <Nav.Link
                 as={Link}
                 to="/issue"
-                onClick={() => updateExpanded(false)}
+                // onClick={() => updateExpanded(false)}
                 className="Navi--txt font-16 text-white font-sans px-4 mx-auto" href="#">
                 ISSUE #1
               </Nav.Link>
               <Nav.Link
                 as={Link}
                 to="/meetpunk"
-                onClick={() => updateExpanded(false)}
+                // onClick={() => updateExpanded(false)}
                 className="Navi--txt font-16 text-white font-sans px-4 mx-auto" href="#">
                 MEET THE PUNKS
               </Nav.Link>
               <Nav.Link
                 as={Link}
                 to="/faqs"
-                onClick={() => updateExpanded(false)}
+                // onClick={() => updateExpanded(false)}
                 className="Navi--txt font-16 text-white font-sans px-4 mx-auto" href="#">
                 FAQS
               </Nav.Link>
               <Nav.Link
                 as={Link}
                 to="/about"
-                onClick={() => updateExpanded(false)}
+                // onClick={() => updateExpanded(false)}
                 className="Navi--txt font-16 text-white font-sans px-4 mx-auto" href="#">
                 ABOUT
               </Nav.Link>
