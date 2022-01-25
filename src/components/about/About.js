@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="project bg-video pb-5">
       <div className="text-center">
-        <img className="project--img mb-5" src="../images/punks-title-CW.webp" alt="" alt=""></img>
+        <img className="project--img mb-5" src="../images/punks-title-CW.webp" alt="img"></img>
       </div>
       <h1 className="text-ppink font-issue mt-5 mb-100  text-center" >About</h1>
       <Row>
